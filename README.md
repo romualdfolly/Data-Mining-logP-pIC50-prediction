@@ -51,4 +51,11 @@ from utils.processor import DataProcessor
 path = "path/to/data.csv"
 process = DataProcessor(path_to_dataset=path)
 process.read_dataset()
-process.describe_data()```
+process.describe_data()
+
+### Train the Models
+
+from models.LR import ProjectLinearRegressor
+
+model = ProjectLinearRegressor()
+model.fit(process.X_train_logP, process.y_train_logP)
