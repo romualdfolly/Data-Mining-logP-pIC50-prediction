@@ -77,3 +77,6 @@ process.visualize_data(about=['MolWt', 'NumHAcceptors'])
 
 ### Results
 
+---
+> # Authors
+> 
