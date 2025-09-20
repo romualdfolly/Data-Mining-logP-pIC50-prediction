@@ -37,3 +37,18 @@ This project aims to predict two important molecular properties: **logP** (logar
 1. Clone this repository to your local machine:
    ```bash
    git clone https://github.com/your-username/logP-pIC50-prediction.git
+2. pip install -r requirements.txt
+   ```bash
+   pip install -r requirements.txt```
+
+---
+### Data Preprocessing:
+Load and prepare your data:
+
+```python
+from utils.processor import DataProcessor
+
+path = "path/to/data.csv"
+process = DataProcessor(path_to_dataset=path)
+process.read_dataset()
+process.describe_data()```
