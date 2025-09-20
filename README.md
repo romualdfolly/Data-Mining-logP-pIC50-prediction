@@ -76,7 +76,12 @@ process.visualize_data(about=['MolWt', 'NumHAcceptors'])
 ```
 
 ### Results
+open the file <code blue>main.ipynb<code>
 
 ---
 > # Authors
-> 
+
+| Username        | GitHub Link                             | 
+|-----------------|-----------------------------------------|
+| `oumardiallo`     | [GitHub Profile](https://github.com/username1) | 
+| `romualdfolly`     | [GitHub Profile](https://github.com/romualdfolly) |
