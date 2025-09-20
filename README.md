@@ -83,5 +83,5 @@ open the file <code blue>main.ipynb<code>
 
 | Username        | GitHub Link                             | 
 |-----------------|-----------------------------------------|
-| `oumardiallo`     | [GitHub Profile](https://github.com/username1) | 
+| `diallomar`     | [GitHub Profile](https://github.com/diallomar) | 
 | `romualdfolly`     | [GitHub Profile](https://github.com/romualdfolly) |
