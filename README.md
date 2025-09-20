@@ -52,10 +52,28 @@ path = "path/to/data.csv"
 process = DataProcessor(path_to_dataset=path)
 process.read_dataset()
 process.describe_data()
+```
 
 ### Train the Models
 
+```python
 from models.LR import ProjectLinearRegressor
 
 model = ProjectLinearRegressor()
 model.fit(process.X_train_logP, process.y_train_logP)
+```
+
+### Evaluate the Models
+
+```python
+y_pred = model.predict(process.X_test_logP)
+```
+### Data Visualization Examples
+To visualize the distributions of logP and pIC50, as well as the impact of molecular descriptors
+
+```python
+process.visualize_data(about=['MolWt', 'NumHAcceptors'])
+```
+
+### Results
+
